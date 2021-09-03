@@ -55,6 +55,14 @@ The namespace contains the following packages:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`binary( env, info, fcn )`][@stdlib/math/base/napi/binary]</span><span class="delimiter">: </span><span class="description">C APIs for registering a Node-API module exporting interfaces for invoking binary numerical functions.</span>
+-   <span class="signature">[`ternary( env, info, fcn )`][@stdlib/math/base/napi/ternary]</span><span class="delimiter">: </span><span class="description">C APIs for registering a Node-API module exporting interfaces for invoking ternary numerical functions.</span>
+-   <span class="signature">[`unary( env, info, fcn )`][@stdlib/math/base/napi/unary]</span><span class="delimiter">: </span><span class="description">C APIs for registering a Node-API module exporting interfaces for invoking unary numerical functions.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -136,6 +144,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-napi/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/base/napi/binary]: https://github.com/stdlib-js/math-base-napi-binary
+
+[@stdlib/math/base/napi/ternary]: https://github.com/stdlib-js/math-base-napi-ternary
+
+[@stdlib/math/base/napi/unary]: https://github.com/stdlib-js/math-base-napi-unary
 
 <!-- </toc-links> -->
 
