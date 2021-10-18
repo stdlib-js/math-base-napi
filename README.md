@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library C APIs for registering a Node-API module exporting interfaces.
+> C APIs for registering a Node-API module exporting interfaces.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var ns = require( '@stdlib/math-base-napi' );
 
 #### ns
 
-Standard library C APIs for registering a Node-API module exporting interfaces.
+Namespace for C APIs for registering a Node-API module exporting interfaces.
 
 ```javascript
 var napi = ns;
