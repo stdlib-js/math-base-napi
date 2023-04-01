@@ -38,7 +38,7 @@
   "dependencies": {
     "@stdlib/math-base-napi-binary": "^0.0.8",
     "@stdlib/math-base-napi-ternary": "^0.0.8",
-    "@stdlib/math-base-napi-unary": "^0.0.8",
+    "@stdlib/math-base-napi-unary": "^0.0.9",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
