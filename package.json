@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-napi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "C APIs for registering a Node-API module exporting interfaces.",
   "license": "Apache-2.0",
   "author": {
@@ -37,16 +37,16 @@
   },
   "dependencies": {
     "@stdlib/math-base-napi-binary": "^0.0.8",
-    "@stdlib/math-base-napi-ternary": "^0.0.8",
-    "@stdlib/math-base-napi-unary": "^0.0.9",
-    "@stdlib/utils-define-read-only-property": "^0.0.8"
+    "@stdlib/math-base-napi-ternary": "^0.1.0",
+    "@stdlib/math-base-napi-unary": "^0.1.0",
+    "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/utils-keys": "^0.0.7",
-    "@stdlib/utils-try-require": "^0.0.7",
+    "@stdlib/assert-is-browser": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/utils-keys": "^0.1.0",
+    "@stdlib/utils-try-require": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
