@@ -37,8 +37,8 @@
   },
   "dependencies": {
     "@stdlib/math-base-napi-binary": "^0.1.0",
-    "@stdlib/math-base-napi-quaternary": "github:stdlib-js/math-base-napi-quaternary#main",
-    "@stdlib/math-base-napi-quinary": "github:stdlib-js/math-base-napi-quinary#main",
+    "@stdlib/math-base-napi-quaternary": "^0.1.0",
+    "@stdlib/math-base-napi-quinary": "^0.1.0",
     "@stdlib/math-base-napi-ternary": "^0.1.1",
     "@stdlib/math-base-napi-unary": "^0.1.1",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
