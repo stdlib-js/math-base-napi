@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-10-01)
 
 <section class="packages">
 
@@ -42,6 +42,7 @@
 
 ##### Features
 
+-   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903)
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768)
 
 </section>
@@ -62,10 +63,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
+-   Philipp Burckhardt
 
 </section>
 
@@ -77,6 +79,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
+-   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - **feat:** add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903) _(by Gunj Joshi, Athan Reines)_
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - **feat:** add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768) _(by Gunj Joshi)_
 -   [`eb7f8ed`](https://github.com/stdlib-js/stdlib/commit/eb7f8ed40d9a514a673f5152484f62042dc24e67) - **docs:** add missing `stdint` includes [(#2728)](https://github.com/stdlib-js/stdlib/pull/2728) _(by Gunj Joshi, Athan Reines)_
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - **feat:** add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726) _(by Gunj Joshi, Athan Reines)_
@@ -188,7 +192,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   Aman Bhansali
 -   Athan Reines
 -   Gunj Joshi
--   Pranav
+-   Pranav Goswami
 
 </section>
 
