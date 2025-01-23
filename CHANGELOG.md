@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-23)
 
 <section class="packages">
 
@@ -20,7 +20,36 @@
 
 ##### Features
 
+-   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - add `FC_C` macro
+-   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - add `DZ_Z` macro
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522)
+-   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315)
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-napi-ternary-unreleased">
+
+#### [@stdlib/math/base/napi/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855)
+-   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - add `CCC_C` macro
+-   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - add `ZZZ_Z` macro
+-   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523)
 
 </section>
 
@@ -63,11 +92,13 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
+-   Karan Anand
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
@@ -79,6 +110,20 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
+-   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - **feat:** add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855) _(by Karan Anand, Athan Reines)_
+-   [`0e011ca`](https://github.com/stdlib-js/stdlib/commit/0e011ca8c06a909d9d424a387f91c34535e0e7c3) - **docs:** update comment _(by Athan Reines)_
+-   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - **feat:** add `CCC_C` macro _(by Athan Reines)_
+-   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - **feat:** add `ZZZ_Z` macro _(by Athan Reines)_
+-   [`0e28d1f`](https://github.com/stdlib-js/stdlib/commit/0e28d1ff8e332ace367d7014c0cbe4a3a416fd14) - **refactor:** move implementations and macros to separate files _(by Athan Reines)_
+-   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - **feat:** add `FC_C` macro _(by Athan Reines)_
+-   [`89df5ae`](https://github.com/stdlib-js/stdlib/commit/89df5ae1fd161a19ad094eeef14d9b6f17551975) - **docs:** add `DZ_Z` docs _(by Athan Reines)_
+-   [`8a62393`](https://github.com/stdlib-js/stdlib/commit/8a62393548250469afe4e7e34e112a0299da122b) - **docs:** reorder APIs and add missing docs _(by Athan Reines)_
+-   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - **feat:** add `DZ_Z` macro _(by Athan Reines)_
+-   [`bf703d6`](https://github.com/stdlib-js/stdlib/commit/bf703d6a49610e04b628d613a7a0dbf482132890) - **refactor:** move macros and functions to separate files _(by Athan Reines)_
+-   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - **feat:** add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315) _(by Gunj Joshi)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - **feat:** add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903) _(by Gunj Joshi, Athan Reines)_
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - **feat:** add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768) _(by Gunj Joshi)_
