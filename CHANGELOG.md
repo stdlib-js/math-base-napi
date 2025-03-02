@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-23)
+## Unreleased (2025-03-02)
 
 <section class="packages">
 
@@ -36,6 +36,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-napi-quaternary-unreleased">
+
+#### [@stdlib/math/base/napi/quaternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/quaternary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-napi-ternary-unreleased">
 
 #### [@stdlib/math/base/napi/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary)
@@ -46,6 +68,7 @@
 
 ##### Features
 
+-   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281)
 -   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855)
 -   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - add `CCC_C` macro
 -   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - add `ZZZ_Z` macro
@@ -110,6 +133,13 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e40aa38`](https://github.com/stdlib-js/stdlib/commit/e40aa38b11d19c9e9c00743e5dcc2e484ce10e5f) - **docs:** update namespace table of contents [(#5724)](https://github.com/stdlib-js/stdlib/pull/5724) _(by stdlib-bot)_
+-   [`18ad933`](https://github.com/stdlib-js/stdlib/commit/18ad933e9ddbf7eb689531e22d81640b164f73f0) - **docs:** fix typo by replacing `int_32` with `int32_t` [(#5546)](https://github.com/stdlib-js/stdlib/pull/5546) _(by Karan Anand, stdlib-bot)_
+-   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - **feat:** add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545) _(by Karan Anand)_
+-   [`b2c926b`](https://github.com/stdlib-js/stdlib/commit/b2c926b286713f2bbeda7becbaf3ad2cdaed1947) - **refactor:** move implementations and macros to separate files [(#5544)](https://github.com/stdlib-js/stdlib/pull/5544) _(by Karan Anand)_
+-   [`183d056`](https://github.com/stdlib-js/stdlib/commit/183d056687e023d43cded450f0d9e4739aaff8bd) - **refactor:** move implementations and macros to separate files [(#5541)](https://github.com/stdlib-js/stdlib/pull/5541) _(by Karan Anand)_
+-   [`ffc6fed`](https://github.com/stdlib-js/stdlib/commit/ffc6fed5cdfdd81d0806cec7aed97afb6de40a24) - **refactor:** move implementations and macros to separate files [(#5540)](https://github.com/stdlib-js/stdlib/pull/5540) _(by Karan Anand, stdlib-bot)_
+-   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
 -   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - **feat:** add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855) _(by Karan Anand, Athan Reines)_
 -   [`0e011ca`](https://github.com/stdlib-js/stdlib/commit/0e011ca8c06a909d9d424a387f91c34535e0e7c3) - **docs:** update comment _(by Athan Reines)_
