@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-02)
+## Unreleased (2025-03-24)
 
 <section class="packages">
 
@@ -94,6 +94,7 @@
 
 ##### Features
 
+-   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253)
 -   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903)
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768)
 
@@ -133,6 +134,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - **feat:** add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253) _(by Karan Anand, Athan Reines)_
 -   [`1770970`](https://github.com/stdlib-js/stdlib/commit/17709703d0516442352be88ec16887dd4f95d42c) - **docs:** fix types _(by Athan Reines)_
 -   [`e40aa38`](https://github.com/stdlib-js/stdlib/commit/e40aa38b11d19c9e9c00743e5dcc2e484ce10e5f) - **docs:** update namespace table of contents [(#5724)](https://github.com/stdlib-js/stdlib/pull/5724) _(by stdlib-bot)_
 -   [`18ad933`](https://github.com/stdlib-js/stdlib/commit/18ad933e9ddbf7eb689531e22d81640b164f73f0) - **docs:** fix typo by replacing `int_32` with `int32_t` [(#5546)](https://github.com/stdlib-js/stdlib/pull/5546) _(by Karan Anand, stdlib-bot)_
