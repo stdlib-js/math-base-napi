@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
 ### Features
 
+-   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - add signed 16-bit integer APIs
+-   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - add signed 8-bit integer APIs
+-   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - add unsigned 32-bit integer APIs
+-   [`5ff1e27`](https://github.com/stdlib-js/stdlib/commit/5ff1e2760c40b9318c9a4cbfb1c8d4ccb5644de5) - add unsigned 16-bit integer APIs
+-   [`e83a528`](https://github.com/stdlib-js/stdlib/commit/e83a5284d2c9db6b968ac2edd81c43f4b76549d5) - add unsigned 8-bit integer APIs
 -   [`8459c35`](https://github.com/stdlib-js/stdlib/commit/8459c356561052d228647bf66476ad699911abfd) - add `FII_F` macro in `math/base/napi/ternary` [(#6542)](https://github.com/stdlib-js/stdlib/pull/6542)
 -   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534)
 -   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253)
@@ -59,6 +64,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - **feat:** add signed 16-bit integer APIs _(by Athan Reines)_
+-   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - **feat:** add signed 8-bit integer APIs _(by Athan Reines)_
+-   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - **feat:** add unsigned 32-bit integer APIs _(by Athan Reines)_
+-   [`5ff1e27`](https://github.com/stdlib-js/stdlib/commit/5ff1e2760c40b9318c9a4cbfb1c8d4ccb5644de5) - **feat:** add unsigned 16-bit integer APIs _(by Athan Reines)_
+-   [`e83a528`](https://github.com/stdlib-js/stdlib/commit/e83a5284d2c9db6b968ac2edd81c43f4b76549d5) - **feat:** add unsigned 8-bit integer APIs _(by Athan Reines)_
 -   [`8459c35`](https://github.com/stdlib-js/stdlib/commit/8459c356561052d228647bf66476ad699911abfd) - **feat:** add `FII_F` macro in `math/base/napi/ternary` [(#6542)](https://github.com/stdlib-js/stdlib/pull/6542) _(by Neeraj Pathak)_
 -   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - **feat:** add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
