@@ -2,14 +2,17 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2025-06-30)
+## 0.4.0 (2026-01-28)
 
 <section class="features">
 
 ### Features
 
+-   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576)
+-   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860)
+-   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800)
 -   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - add signed 16-bit integer APIs
 -   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - add signed 8-bit integer APIs
 -   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - add unsigned 32-bit integer APIs
@@ -40,6 +43,7 @@
 
 ### Bug Fixes
 
+-   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - correct argument order for iid_d in `math/base/napi/ternary` NAPI function
 -   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
 
 </section>
@@ -64,6 +68,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`4c079e0`](https://github.com/stdlib-js/stdlib/commit/4c079e04a6ed2aa27be8e42e599786bf8327f670) - **feat:** add `H_H` macro in `math/base/napi/unary` [(#9576)](https://github.com/stdlib-js/stdlib/pull/9576) _(by Neeraj Pathak, Athan Reines)_
+-   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - **fix:** correct argument order for iid_d in `math/base/napi/ternary` NAPI function _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`49904dd`](https://github.com/stdlib-js/stdlib/commit/49904ddd98a211f10a56bca1c3223b2d8912c968) - **feat:** add macros for `k_k` and `s_s` [(#7860)](https://github.com/stdlib-js/stdlib/pull/7860) _(by Gunj Joshi)_
+-   [`d2f5415`](https://github.com/stdlib-js/stdlib/commit/d2f541532510756491807bf4a22bb091b234aaa7) - **style:** remove extra trailing empty line _(by Philipp Burckhardt)_
+-   [`b0e6301`](https://github.com/stdlib-js/stdlib/commit/b0e6301cf9861bd19356c6a316299b3838996aa1) - **feat:** add macros for `u_u`, `t_t` and `b_b` [(#7800)](https://github.com/stdlib-js/stdlib/pull/7800) _(by Gunj Joshi, Athan Reines)_
 -   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - **feat:** add signed 16-bit integer APIs _(by Athan Reines)_
 -   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - **feat:** add signed 8-bit integer APIs _(by Athan Reines)_
