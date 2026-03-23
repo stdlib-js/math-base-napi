@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-23)
+
+<section class="features">
+
+### Features
+
+-   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - **feat:** add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577) _(by Neeraj Pathak, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Neeraj Pathak
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-04)
