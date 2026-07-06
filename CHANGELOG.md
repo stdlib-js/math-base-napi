@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-26)
+## Unreleased (2026-07-06)
 
 <section class="features">
 
@@ -24,6 +24,7 @@
 
 <details>
 
+-   [`510d710`](https://github.com/stdlib-js/stdlib/commit/510d7100ba882850675520a6fe8be6219fb05076) - **docs:** propagate recent develop fixes to sibling packages [(#12400)](https://github.com/stdlib-js/stdlib/pull/12400) _(by Philipp Burckhardt)_
 -   [`90b1d08`](https://github.com/stdlib-js/stdlib/commit/90b1d08d97ae2d4db68836796d38f486d62d6610) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e196c42`](https://github.com/stdlib-js/stdlib/commit/e196c42d4f901702ffda4f5159b2ecd9141f8384) - **feat:** add `CCCC_C` macro in `math/base/napi/quaternary` [(#11105)](https://github.com/stdlib-js/stdlib/pull/11105) _(by Neeraj Pathak)_
 -   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - **feat:** add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944) _(by Neeraj Pathak, Athan Reines)_
